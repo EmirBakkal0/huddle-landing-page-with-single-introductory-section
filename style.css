@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+  }
+
+.text-center{
+    text-align: center;
+
+}
+h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+
+
+
+/* For mobile phones: */
+[class*="col-"] {
+    
+    width: 100%;
+    padding: 50px;
+  }
+    /* For width smaller than 375px: */
+body {
+    background-image:url("images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    
+  }
+  
+  
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  @media only screen and (min-width: 400px) {
+    /* For desktop: */
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    body {
+        background-image: url('images/bg-desktop.svg');
+      
+    } 
+    .container{
+        display:flex;
+        
+    }  
+    
+  }
