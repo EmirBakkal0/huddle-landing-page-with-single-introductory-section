@@ -18,13 +18,15 @@ p{
 }
 
 
-
+.btn{
+  
+}
 
 /* For mobile phones: */
 [class*="col-"] {
     
     width: 100%;
-    padding: 50px;
+    padding: 20px;
   }
     /* For width smaller than 375px: */
 body {
@@ -39,6 +41,7 @@ body {
   img {
     width: 100%;
     height: auto;
+    padding: 30px,20px;
   }
   
   
@@ -61,9 +64,15 @@ body {
         background-image: url('images/bg-desktop.svg');
       
     } 
-    .container{
+    .row{
         display:flex;
+        justify-content: center;
         
     }  
+    .container{
+      padding-left: 50px;
+      padding-right:50px ;
+    }
+
     
   }
